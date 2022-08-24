@@ -11,10 +11,10 @@
 }
 
 :root {
-    --color-bg: #00B74A;
-    --color-bg-variant: #007730;
-    --color-primary: #0F4DA8;
-    --color-primary-variant: rgba(77, 181, 225, 0.4);
+    --color-bg: #000000;
+    --color-bg-variant: #3D0000;
+    --color-primary: #FFB200;
+    --color-primary-variant: rgb(0, 0, 225);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -35,12 +35,17 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    /*background: var(--color-bg);*/
     color: var(--color-white);
     line-height: 1.7;
     /*background-image: url(../src/assets/bg_texture.png);*/
 }
 
+.bg_section {
+    height: 5000px;
+    background-color: rgb(0, 0, 0)
+}
+  
 /* ===================== General styles ======================= */
 
 .container {

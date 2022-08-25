@@ -5,12 +5,15 @@
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     margin: 10vh 15vh 15vh 15vh;
     place-items:  center;
-    background-color: red;
     padding: auto 0;
 }
 
 .grid-item{
     height: 10rem;
     width: 10rem;
-    background-color: black;
+    object-fit: contain;
+    padding: 10px;
+    
+    border-radius: 0.4rem;
+    background-color: white;
 }

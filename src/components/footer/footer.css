@@ -1,6 +1,7 @@
-.footer{
-    height: 200px;
-    background-color: var(--color-primary);
-    padding: 25px;
-    text-align: center;
+.footer {
+  /*background-color: var(--color-primary);*/
+  min-height: 20vh;
+  background-color: black;
+  padding-top: 4vh;
+  text-align: center;
 }
